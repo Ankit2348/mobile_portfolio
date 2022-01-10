@@ -43,13 +43,13 @@ a {
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
-    position: absolute;
+    position: relative;
     transition: all 0.5s ease;
     /* margin-top: -2rem; */
     padding-top: 1rem;
     left: 0;
     display: none;
-    min-height: 100px;
+    min-height: 200px;
     min-width: 170px;
     background: #33ccc5;
     box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
@@ -67,6 +67,7 @@ a {
   ul li ul li {
     clear: both;
     width: 100%;
+    overflow: hidden;
   }
 
   
